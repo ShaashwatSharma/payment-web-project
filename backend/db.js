@@ -2,7 +2,7 @@ const  mongoose =require ("mongoose");
 
 // const {schema}=mongoose;
 
-mongoose.connect("mongodb+srv://admin:database0@cluster-0.t5cvj.mongodb.net/paytm")
+mongoose.connect("Your db url here ")
 // ease way to do it->
 const userschema=new mongoose.Schema({
     username:String,
